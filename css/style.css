@@ -23,7 +23,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 ================================================== */
 body {
   background: #fff;
-  color: #555;
+  color: #000;
 }
 
 body,
@@ -32,7 +32,7 @@ p {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased !important;
   line-height: 26px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 h1,
@@ -75,7 +75,7 @@ h4 {
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
 }
 
@@ -456,14 +456,14 @@ cite {
   padding: 0;
 }
 
-ul.list-arrow li:before {
+/* ul.list-arrow li:before {
   font-family: "Font Awesome 5 Free";
   content: "\f105";
   margin-right: 10px;
   color: #ffb600;
   font-size: 16px;
   font-weight: bold;
-}
+} */
 
 ul.list-check li:before {
   font-family: "Font Awesome 5 Free";
@@ -815,6 +815,7 @@ ul.top-info-box li .info-box .info-box-title {
   font-size: 14px;
   margin-bottom: 8px;
   line-height: normal;
+  font-weight: bold;
 }
 
 ul.top-info-box li .info-box .info-box-subtitle {
@@ -2456,7 +2457,7 @@ img.testimonial-thumb {
 .copyright {
   background: #ffb600;
   color: #111;
-  padding: 25px 0;
+  padding: 3px 0;
   position: relative;
   z-index: 1;
   font-weight: 600;
