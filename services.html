@@ -66,6 +66,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 
 </head>
 <body>
+  <div id="particles-js" style="position: absolute; width: 100%; height: 100%; z-index: -1;">
   <div class="body-inner">
 
     <div id="top-bar" class="top-bar">
@@ -401,8 +402,6 @@ FACEBOOK: https://www.facebook.com/themefisher
     </div><!-- Main row end -->
   </div><!-- Conatiner end -->
 </section><!-- Main container end -->
-
-<div class="spinner" style="display: none;"></div>
 <section class="iq-features">
   <div class="container">
       <div class="row align-items-center">
@@ -595,27 +594,6 @@ height: 90px;" class="footer-logo" src="images/logo_1.jfif" alt="Constra">
 
         setTimeout(() => {
           spinner.style.display = 'none';
-
-          // Load 3 more services (this is a placeholder for the dynamic content)
-          const newServices = `
-            <div class="col-lg-4 col-md-6 mb-5">
-              <div class="ts-service-box fade-in">
-                  <div class="ts-service-image-wrapper">
-                    <img loading="lazy" class="w-100" src="images/services/service7.jpg" alt="service-image">
-                  </div>
-                  <div class="d-flex">
-                    <div class="ts-service-box-img">
-                        <img loading="lazy" src="images/icon-image/service-icon7.png" alt="service-icon">
-                    </div>
-                    <div class="ts-service-info text-right">
-                        <h3 class="service-box-title"><a  >New Service</a></h3>
-                        <p>New service description goes here. Lorem ipsum dolor suscipit.</p>
-                        <a class="learn-more d-inline-block"   aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
-                    </div>
-                  </div>
-              </div><!-- New service end -->
-            </div>
-          `;
           document.querySelector('.row').insertAdjacentHTML('beforeend', newServices);
 
           // Re-observe the new services
@@ -656,6 +634,7 @@ height: 90px;" class="footer-logo" src="images/logo_1.jfif" alt="Constra">
   <script src="js/script.js"></script>
 
   </div><!-- Body inner end -->
-  </body>
+  </div>
+</body>
 
   </html>
