@@ -460,8 +460,8 @@ function showContent(service) {
   var text = document.getElementById("content-text");
 
   if (service === "ehkam") {
-    title.innerText = "معاملات منصه احكام";
-    text.innerHTML = '<p>يتم معالجة البيانات التي تم جمعها و اخراج البيانات في شكل كروكي يتكون من اطوال الارض و مساحتها و احداثيتها و حدودها و اضافه مصور جوي لموقع الارض وبيانات صاحب الارض ومن ثم عمل ملف shapeFile يحتوي علي بيانات الارض و صاحب الارض ورفع كل هذه ابيانات غلي منصحه احكام</p> <img src="images/services/p1.webp" width="700" height="300" />';
+    title.innerText = "معاملات منصة احكام";
+    text.innerHTML = '<p>يتم معالجة البيانات التي تم جمعها و اخراج البيانات في شكل كروكي يتكون من اطوال الارض و مساحتها و احداثيتها و حدودها و اضافة مصور جوي لموقع الارض وبيانات صاحب الارض ومن ثم عمل ملف shapeFile يحتوي علي بيانات الارض و صاحب الارض ورفع كل هذة ابيانات غلي منصحة احكام</p> <img src="images/services/p1.webp" width="700" height="300" />';
 
 
   } else if (service === "tahdith") {
@@ -469,7 +469,7 @@ function showContent(service) {
     text.innerHTML = '<p> يتم معالحة البيانات و انتاج كروكي يحتوي علي الاطوال والحدود و المساحة و الاحدثيات و مصور جوي لموقع الارض وصور فوتوغرافية للموقع اضفة لبيانات صاحب الصك وبيانات الصك  </p><img src="images/services/p2.jpg" width="700" height="300" />';
   } else if (service === "tahzib") {
     title.innerText = "معاملات تهذيب الصكوك";
-    text.innerHTML = '<p>عملية تهذيب الصكوك هي بغرض اضافه رفع القطعة و المخطط الصك و ذلك بعد اجراء تخطيط الشوارع للارض ور بما تم اختزال جزء من الارض حتي يتسني تكوين منظومة شوارع تناسب احتياجات المنطقه</p><img src="images/services/p3.jpg" width="700" height="300" />';
+    text.innerHTML = '<p>عملية تهذيب الصكوك هي بغرض اضافة رفع القطعة و المخطط الصك و ذلك بعد اجراء تخطيط الشوارع للارض ور بما تم اختزال جزء من الارض حتي يتسني تكوين منظومة شوارع تناسب احتياجات المنطقه</p><img src="images/services/p3.jpg" width="700" height="300" />';
   } else if (service === "tajzee") {
     title.innerText = "عمل رفع مساحي بغرض تجزئة الأراضي";
     text.innerHTML = '<img src="images/services/p4.jpg" width="700" height="300" /> <br><img src="images/services/p5.jpg" width="700" height="300" /> <br><img src="images/services/p6.jpg" width="700" height="300" />';

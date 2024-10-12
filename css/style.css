@@ -682,7 +682,7 @@ ul.top-info li p.info-text {
 
 .header-one ul.navbar-nav > li {
   padding-left: 0;
-  padding-right: 25px;
+  /* padding-right: 25px; */
   margin-right: 18px;
 }
 @media (max-width: 991px) {
@@ -2632,7 +2632,7 @@ img.testimonial-thumb {
 }
 
 .page-slider.small-bg .box-slider-content {
-  left: 20%;
+  /* left: 20%; */
 }
 
 .page-slider.small-bg .box-slider-text {
